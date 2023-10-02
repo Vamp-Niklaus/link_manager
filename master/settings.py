@@ -80,16 +80,7 @@ WSGI_APPLICATION = 'master.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vampniklaus$project',
-        'HOST': 'vampniklaus.mysql.pythonanywhere-services.com',
-        'PORT': '3306',
-        'USER': 'vampniklaus',
-        'PASSWORD': 'R@k35h696969',
-    }
-}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
